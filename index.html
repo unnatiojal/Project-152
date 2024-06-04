@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+        <script src="base.js"></script>
+        <script src="car.js"></script>
+    </head>
+    <body>
+        <a-scene background="color:white">
+            <a-camera position="0 50 250"></a-camera>
+            <a-entity id="base" base></a-entity>
+            <a-entity id="car-model" car-model scale="15 15 15"></a-entity>
+        </a-scene>
+    </body>
+</html>
